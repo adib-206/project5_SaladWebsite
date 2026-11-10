@@ -1,0 +1,1542 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salads - Fresh & Healthy</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container navbar">
+        <h1>Sa<i class="fas fa-utensil-spoon"></i>lads</h1>
+
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="#" class="nav-link active">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="#" class="nav-link">Menu</a></li>
+            <li>
+              <a href="#" class="nav-link dropdown">
+                Pages
+                <i class="fa-solid fa-angle-down"></i>
+              </a>
+            </li>
+            <li><a href="#" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="icon-btn" id="search-btn" title="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+
+          <button class="icon-btn" id="theme-btn" title="Toggle Theme">
+            <i class="icon-moon fa-regular fa-moon"></i>
+            <i class="icon-sun fa-regular fa-sun"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-container">
+          <div class="hero-text">
+            <h2>
+              <span class="title-bold">Fresh Healthy</span>
+              <span class="title-light">Delicious Salads</span>
+            </h2>
+            <p>
+              Healthy foods to eat everyday, Tasty and healthy vegetables salad
+              with fresh tomatoes, coriander leaves and more.
+            </p>
+            <a href="#" class="btn-order">Order Now</a>
+          </div>
+
+          <div class="hero-image">
+            <img src="image/1.png" alt="Continuous Rotating Salad" />
+          </div>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="container about-container">
+          <div class="about-images">
+            <div class="img-wrapper img-back">
+              <img
+                src="image/2down.jpg"
+                alt="Healthy breakfast egg and greens"
+              />
+            </div>
+            <div class="img-wrapper img-front">
+              <img src="image/2up.jpg" alt="Fresh salad bowl" />
+            </div>
+          </div>
+
+          <div class="about-text">
+            <span class="sub-title">Since 2006</span>
+            <h2>
+              We Have <span class="highlight-orange">30+</span> Years of
+              Experience
+            </h2>
+
+            <p class="quote-text">
+              "Orem ipsum viverra feugiat. Pellen tesque libero ut justo,
+              ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Non quae, fugiat".
+            </p>
+
+            <p class="desc-text">
+              Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Non quae, fugiat. Lorem ipsum viverra feugiat.
+              Pellen tesque libero ut justo, ultrices in ligula.
+            </p>
+
+            <div class="signature">
+              <img src="image/3.png" alt="Signature" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <button id="back-to-top" title="Go to top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+
+      <section class="popular-salads">
+        <div class="container">
+          <div class="section-title">
+            <h2>Our <span class="highlight-orange">Popular</span> Salads</h2>
+          </div>
+
+          <div class="salads-grid">
+            <div class="salad-card">
+              <div class="card-shape shape-green"></div>
+              <div class="card-img">
+                <img src="image/4.jpg" />
+              </div>
+              <h3>Green salad</h3>
+              <p>
+                Amus a ligula quam tesque et libero ut justo, ultrices in. Ut eu
+                leo non. Duis sed et dolor amet.
+              </p>
+            </div>
+
+            <div class="salad-card active-orange">
+              <div class="card-shape shape-orange"></div>
+              <div class="card-img">
+                <img src="image/5.jpg" alt="Fruit salads" />
+              </div>
+              <h3>Fruit salads</h3>
+              <p>
+                Amus a ligula quam tesque et libero ut justo, ultrices in. Ut eu
+                leo non. Duis sed et dolor amet.
+              </p>
+              <div class="corner-triangle"></div>
+            </div>
+
+            <div class="salad-card">
+              <div class="card-shape shape-green"></div>
+              <div class="card-img">
+                <img src="image/6.jpg" alt="Dessert salads" />
+              </div>
+              <h3>Dessert salads</h3>
+              <p>
+                Amus a ligula quam tesque et libero ut justo, ultrices in. Ut eu
+                leo non. Duis sed et dolor amet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="menu-banner">
+        <div class="container banner-container">
+          <div class="banner-content">
+            <h2>Our Restaurants <span class="highlight-orange">Menu</span></h2>
+
+            <div class="banner-text-cols">
+              <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum.
+              </p>
+              <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum.
+              </p>
+            </div>
+
+            <a href="#" class="btn-menu">What's on the Menu</a>
+          </div>
+
+          <div class="banner-image">
+            <img
+              src="image/pngtree-fresh-green-salad-bowl-vector-png-image_19777786.png"
+              alt="Side Salad Dish"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="features-section">
+        <div class="container grid-features">
+          <div class="feature-card">
+            <div class="feature-icon icon-apple">
+              <i class="fa-solid fa-apple-whole"></i>
+            </div>
+            <div class="feature-info">
+              <h3>Healthy Food</h3>
+              <p>
+                Ras effic itur metusga via suscipit consectetur adipisicing unde
+                omnis.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon icon-orange">
+              <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="feature-info">
+              <h3>Fresh Salads</h3>
+              <p>
+                Ras effic itur metusga via suscipit consectetur adipisicing unde
+                omnis.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon icon-orange">
+              <i class="fa-solid fa-carrot"></i>
+            </div>
+            <div class="feature-info">
+              <h3>Natural Fiber</h3>
+              <p>
+                Ras effic itur metusga via suscipit consectetur adipisicing unde
+                omnis.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon icon-orange">
+              <i class="fa-solid fa-lemon"></i>
+            </div>
+            <div class="feature-info">
+              <h3>Nutritional Food</h3>
+              <p>
+                Ras effic itur metusga via suscipit consectetur adipisicing unde
+                omnis.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon icon-orange">
+              <i class="fa-solid fa-heart-pulse"></i>
+            </div>
+            <div class="feature-info">
+              <h3>Protect Your Heart</h3>
+              <p>
+                Ras effic itur metusga via suscipit consectetur adipisicing unde
+                omnis.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon icon-orange">
+              <i class="fa-solid fa-gauge"></i>
+            </div>
+            <div class="feature-info">
+              <h3>Weight Control</h3>
+              <p>
+                Ras effic itur metusga via suscipit consectetur adipisicing unde
+                omnis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="chefs-section">
+        <div class="container chefs-container">
+          <div class="chefs-content">
+            <h2>Meet Our Best <span class="highlight-orange">Chef's</span></h2>
+
+            <p class="chefs-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              egestas magna at porttitor vehicula nullam augue ipsum dolor.
+              Aenean egestas magna at porttitor ehicula nullam augue ipsum
+              dolor.
+            </p>
+
+            <p class="chefs-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              egestas magna at porttitor vehicula nullam augue ipsum dolor.
+            </p>
+
+            <a href="#" class="btn-chefs">See Our Chef's</a>
+          </div>
+
+          <div class="chefs-image">
+            <img src="image/img2.png" alt="Our Best Chef" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="newsletter-box">
+          <h2>Subscribe to get email updates<br />of our latest news</h2>
+          <form
+            class="newsletter-form"
+            onsubmit="
+              event.preventDefault();
+              alert('Subscribed successfully! 📨');
+            "
+          >
+            <input type="email" placeholder="Enter your email" required />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+
+        <div class="footer-widgets">
+          <div class="footer-col">
+            <h3>ABOUT</h3>
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab.
+            </p>
+            <div class="social-links">
+              <a href="#" title="Facebook"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="#" title="LinkedIn"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+              <a href="#" title="Twitter"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="#" title="Google Plus"
+                ><i class="fa-brands fa-google-plus-g"></i
+              ></a>
+              <a href="#" title="Instagram"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h3>CONTACT INFO</h3>
+            <ul class="contact-list">
+              <li>
+                <i class="fa-solid fa-angle-right"></i>
+                <span
+                  >Food, 10001, 5th Avenue, #06 lane street, NY - 62617.</span
+                >
+              </li>
+              <li>
+                <i class="fa-solid fa-angle-right"></i>
+                <a href="tel:+1212344567">+1(212) 344 567</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-angle-right"></i>
+                <a href="mailto:info@example.com">info@example.com</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2026 Salads All Rights Reserved | WordPress Theme by
+            <strong>W3Layouts.</strong>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="JS/main.js"></script>
+  </body>
+</html>
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - Salads</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container navbar">
+        <h1>Sa<i class="fas fa-utensil-spoon"></i>lads</h1>
+
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link active">About</a></li>
+            <li><a href="#" class="nav-link">Menu</a></li>
+            <li>
+              <a href="#" class="nav-link dropdown"
+                >Pages <i class="fa-solid fa-angle-down"></i
+              ></a>
+            </li>
+            <li><a href="#" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="icon-btn" id="search-btn" title="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <button class="icon-btn" id="theme-btn" title="Toggle Theme">
+            <i class="icon-moon fa-regular fa-moon"></i>
+            <i class="icon-sun fa-regular fa-sun"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-banner">
+        <div class="container banner-flex">
+          <div class="banner-content">
+            <h2 class="page-title">About Us</h2>
+            <nav class="breadcrumb">
+              <a href="index.html">Home</a> <span>» About page</span>
+            </nav>
+          </div>
+
+          <div class="banner-img">
+            <img src="image/1.png" alt="Small Salad Dish" />
+          </div>
+        </div>
+      </section>
+      <section class="about-experience">
+        <div class="container experience-grid">
+          <div class="experience-content">
+            <span class="experience-since">Since 2006</span>
+            <h2 class="experience-title">
+              We Have <span class="orange-text">30+</span> Years of Experience
+            </h2>
+
+            <p class="experience-quote">
+              "Orem ipsum viverra feugiat. Pellen tesque libero ut justo,
+              ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Non quae, fugiat".
+            </p>
+
+            <p class="experience-desc">
+              Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Non quae, fugiat. Lorem ipsum viverra feugiat.
+              Pellen tesque libero ut justo, ultrices in ligula.
+            </p>
+
+            <div class="chef-signature">
+              <img src="image/3.png" alt="Chef Signature" class="sig-img" />
+            </div>
+          </div>
+          <div class="experience-images">
+            <div class="img-box back-img">
+              <img src="image/ab3.jpg" alt="Delicious salad breakfast" />
+            </div>
+            <div class="img-box front-img">
+              <img src="image/ab4.jpg" alt="Fresh salad bowl" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="JS/main.js"></script>
+  </body>
+</html>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* --- المتغيرات في الوضع الفاتح --- */
+:root {
+  --bg-gradient: linear-gradient(135deg, #6bf596 0%, #46e27f 100%);
+  --text-main: #000000;
+  --text-muted: #1c1b1b;
+  --orange-accent: #f27438;
+  --footer-bg: rgba(0, 0, 0, 0.05);
+  --section-bg: #ffffff; /* لون السكاشن البيضاء */
+  --card-bg: #ffffff; /* لون الكروت */
+}
+
+/* --- المتغيرات في الوضع الداكن (يتم تفعيلها عبر JS) --- */
+body.dark-mode {
+  --bg-gradient: linear-gradient(135deg, #235437 0%, #163321 100%);
+  --text-main: #ffffff;
+  --text-muted: #cbd5e1;
+  --footer-bg: rgba(255, 255, 255, 0.05);
+  --section-bg: #16191b; /* اللون الداكن للسكاشن */
+  --card-bg: #1f2427; /* لون أغمق قليلاً للكروت */
+}
+
+body {
+  background: var(--bg-gradient);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  transition: background 0.5s ease;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* --- Header --- */
+.header {
+  width: 100%;
+  padding: 25px 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.5px;
+  transition: color 0.3s ease;
+}
+.fa-utensil-spoon {
+  color: var(--orange-accent);
+  font-size: 26px;
+  margin: 0 4px;
+  display: inline-block;
+  vertical-align: middle;
+  transform: rotate(316deg);
+}
+.nav-menu ul {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-link {
+  text-decoration: none;
+  color: var(--text-main);
+  font-weight: 600;
+  font-size: 16px;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.nav-link.active,
+.nav-link:hover {
+  color: var(--orange-accent);
+}
+.nav-link .fa-angle-down {
+  font-size: 13px;
+  transition: transform 0.3s ease;
+}
+.nav-actions {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-main);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  transition:
+    transform 0.2s,
+    color 0.3s ease;
+}
+.icon-btn:hover {
+  color: var(--orange-accent);
+  transform: scale(1.1);
+}
+.icon-sun {
+  display: none !important;
+}
+.icon-moon {
+  display: inline-block !important;
+}
+.icon-btn i {
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+/* --- Main & Hero --- */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.hero {
+  width: 100%;
+  padding: 60px 0 80px 0;
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-text {
+  flex: 1;
+  max-width: 550px;
+}
+.hero-text h2 {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+  margin-bottom: 25px;
+}
+.title-bold {
+  font-size: 64px;
+  font-weight: 800;
+  color: var(--text-main);
+  transition: color 0.3s ease;
+}
+.title-light {
+  font-size: 64px;
+  font-weight: 300;
+  color: var(--text-main);
+  transition: color 0.3s ease;
+}
+.hero-text p {
+  font-size: 16px;
+  color: var(--text-muted);
+  margin-bottom: 35px;
+  line-height: 1.6;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+.btn-order {
+  display: inline-block;
+  background-color: var(--orange-accent);
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 40px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  box-shadow: 0 8px 20px rgba(242, 116, 56, 0.3);
+  transition:
+    transform 0.3s,
+    background-color 0.3s;
+}
+.btn-order:hover {
+  background-color: #e06329;
+  transform: translateY(-3px);
+}
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.hero-image img {
+  width: 480px;
+  height: 480px;
+  object-fit: cover;
+  border-radius: 50%;
+  animation: spinContinuous 15s linear infinite;
+}
+@keyframes spinContinuous {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* --- About Section --- */
+.about {
+  width: 100%;
+  padding: 100px 0;
+  background-color: var(--section-bg); /* تم التعديل */
+  transition: background-color 0.5s ease;
+}
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.about-images {
+  flex: 1;
+  position: relative;
+  height: 480px;
+}
+.img-wrapper {
+  position: absolute;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+.img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+}
+.img-back {
+  width: 280px;
+  height: 380px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.img-front {
+  width: 280px;
+  height: 380px;
+  bottom: 0;
+  right: 40px;
+  z-index: 2;
+  border: 8px solid transparent;
+}
+.about-text {
+  flex: 1;
+}
+.about-text .sub-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-main);
+  display: block;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+.about-text h2 {
+  font-size: 42px;
+  font-weight: 800;
+  color: var(--text-main);
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+.highlight-orange {
+  color: var(--orange-accent);
+}
+.about-text .quote-text {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 500;
+  color: var(--text-main);
+  margin-bottom: 20px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+.about-text .desc-text {
+  font-size: 16px;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+.signature img {
+  width: 120px;
+  height: auto;
+  filter: brightness(0) invert(0);
+  transition: filter 0.5s ease;
+}
+
+/* Invert signature in dark mode */
+body.dark-mode .signature img {
+  filter: brightness(0) invert(1);
+}
+
+/* --- Back to Top --- */
+#back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 45px;
+  height: 45px;
+  background-color: var(--orange-accent);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  box-shadow: 0 4px 15px rgba(242, 116, 56, 0.4);
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease;
+}
+#back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+#back-to-top:hover {
+  background-color: #e06329;
+  transform: translateY(-5px);
+}
+
+/* --- Popular Salads --- */
+.popular-salads {
+  width: 100%;
+  padding: 80px 0;
+  background-color: var(--section-bg); /* تم التعديل */
+  transition: background-color 0.5s ease;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.section-title h2 {
+  font-size: 38px;
+  font-weight: 800;
+  color: var(--text-main);
+  transition: color 0.3s ease;
+}
+.salads-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.salad-card {
+  background-color: var(--card-bg); /* تم التعديل */
+  border-radius: 12px;
+  padding: 40px 30px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background-color 0.5s ease;
+}
+.salad-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+.card-shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 140px;
+  height: 140px;
+  clip-path: polygon(
+    20% 0%,
+    100% 0,
+    100% 25%,
+    66% 48%,
+    39% 73%,
+    20% 100%,
+    0 100%,
+    0 0
+  );
+  border-top-left-radius: 12px;
+  transition: background-color 0.3s ease;
+}
+.shape-green {
+  background-color: #8be4b1;
+}
+.shape-orange,
+.salad-card:hover .card-shape {
+  background-color: var(--orange-accent);
+}
+.card-img {
+  width: 140px;
+  height: 140px;
+  margin: 0 auto 25px auto;
+  border-radius: 50%;
+  border: 5px solid var(--card-bg);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  transition: border-color 0.5s ease;
+}
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.salad-card h3 {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--text-main);
+  margin-bottom: 15px;
+  transition: color 0.3s ease;
+} /* تم التعديل */
+.salad-card p {
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.6;
+  font-weight: 500;
+  transition: color 0.3s ease;
+} /* تم التعديل */
+.active-orange .card-shape {
+  background-color: var(--orange-accent) !important;
+}
+.corner-triangle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background-color: var(--orange-accent);
+  clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
+
+/* --- Menu Banner --- */
+.menu-banner {
+  width: 100%;
+  padding: 80px 0;
+  position: relative;
+  overflow: hidden;
+  background: var(--bg-gradient);
+  transition: background 0.5s ease;
+  display: flex;
+  align-items: center;
+}
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+.banner-content {
+  flex: 1;
+  max-width: 750px;
+  position: relative;
+  z-index: 2;
+}
+.banner-content h2 {
+  font-size: 42px;
+  font-weight: 800;
+  color: var(--text-main);
+  margin-bottom: 30px;
+  transition: color 0.3s ease;
+}
+.banner-text-cols {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+.banner-text-cols p {
+  flex: 1;
+  font-size: 15px;
+  color: var(--text-muted);
+  line-height: 1.7;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+.btn-menu {
+  display: inline-block;
+  background-color: var(--orange-accent);
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 35px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  box-shadow: 0 8px 20px rgba(242, 116, 56, 0.25);
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease;
+}
+.btn-menu:hover {
+  background-color: #e06329;
+  transform: translateY(-3px);
+}
+.banner-image {
+  position: absolute;
+  right: -250px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 450px;
+  height: 450px;
+  z-index: 1;
+  pointer-events: none;
+}
+.banner-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* --- Features Section --- */
+.features-section {
+  width: 100%;
+  padding: 100px 0;
+  background-color: var(--section-bg); /* تم التعديل */
+  transition: background-color 0.5s ease;
+}
+.grid-features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 30px;
+}
+.feature-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 30px 25px;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  transition:
+    background-color 0.3s ease,
+    border-color 0.3s ease,
+    transform 0.3s ease;
+}
+.feature-card:hover {
+  background-color: var(--card-bg);
+  border-color: rgba(0, 0, 0, 0.06);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+} /* تم التعديل */
+.feature-icon {
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+.icon-apple {
+  color: #00b0ff;
+}
+.icon-orange,
+.feature-icon i {
+  color: var(--orange-accent);
+}
+.feature-card:first-child .feature-icon i {
+  color: #2ecc71;
+}
+.feature-info h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 12px;
+  transition: color 0.3s ease;
+}
+.feature-info p {
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.6;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+
+/* --- Chefs Section --- */
+.chefs-section {
+  width: 100%;
+  padding: 60px 0 0 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: var(--section-bg); /* تم التعديل */
+  transition: background-color 0.5s ease;
+}
+.chefs-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.chefs-content {
+  flex: 1;
+  max-width: 550px;
+}
+.chefs-content h2 {
+  font-size: 42px;
+  font-weight: 800;
+  color: var(--text-main);
+  margin-bottom: 30px;
+  line-height: 1.2;
+  transition: color 0.3s ease;
+}
+.chefs-text {
+  font-size: 15px;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 25px;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+.btn-chefs {
+  display: inline-block;
+  background-color: var(--orange-accent);
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 35px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 10px;
+  box-shadow: 0 8px 20px rgba(242, 116, 56, 0.25);
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease;
+}
+.btn-chefs:hover {
+  background-color: #e06329;
+  transform: translateY(-3px);
+}
+.chefs-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.chefs-image img {
+  max-width: 100%;
+  height: 480px;
+  object-fit: contain;
+  display: block;
+}
+
+/* --- Footer --- */
+.footer {
+  width: 100%;
+  padding: 80px 0 30px 0;
+  position: relative;
+  background-color: var(--section-bg); /* تم التعديل */
+  transition: background-color 0.5s ease;
+}
+.newsletter-box {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 80px auto;
+}
+.newsletter-box h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--text-main);
+  line-height: 1.3;
+  margin-bottom: 35px;
+  letter-spacing: -0.5px;
+  transition: color 0.3s ease;
+}
+.newsletter-form {
+  display: flex;
+  width: 100%;
+  background-color: var(--card-bg);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 30px;
+  padding: 4px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+  transition: background-color 0.5s ease;
+} /* تم التعديل */
+.newsletter-form input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 0 25px;
+  font-size: 16px;
+  font-family: inherit;
+  color: var(--text-main);
+  outline: none;
+  transition: color 0.3s ease;
+}
+.newsletter-form input::placeholder {
+  color: #a0aec0;
+}
+.newsletter-form button {
+  background-color: var(--orange-accent);
+  color: #ffffff;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 26px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+.newsletter-form button:hover {
+  background-color: #e06329;
+}
+
+.footer-widgets {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 80px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+body.dark-mode .footer-widgets {
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+.footer-col h3 {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--text-main);
+  margin-bottom: 25px;
+  letter-spacing: 0.5px;
+}
+.footer-col p {
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+.social-links {
+  display: flex;
+  gap: 12px;
+}
+.social-links a {
+  width: 36px;
+  height: 36px;
+  background-color: var(--footer-bg);
+  color: var(--text-main);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  text-decoration: none;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    transform 0.2s ease;
+}
+.social-links a:hover {
+  background-color: var(--orange-accent);
+  color: #ffffff;
+  transform: translateY(-3px);
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.contact-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.6;
+  transition: color 0.3s ease;
+}
+.contact-list li i {
+  color: var(--text-main);
+  font-size: 12px;
+  margin-top: 5px;
+  transition: color 0.3s ease;
+}
+.contact-list li a {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.contact-list li a:hover {
+  color: var(--orange-accent);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 14px;
+  color: var(--text-muted);
+  transition: color 0.3s ease;
+}
+.footer-bottom strong {
+  color: var(--text-main);
+  transition: color 0.3s ease;
+}
+/* ================ about page ==================== */
+/* --- تنسيقات بانر الصفحة (Page Banner) --- */
+.page-banner {
+  width: 100%;
+  padding: 40px 0 45px 0;
+  background: transparent;
+  position: relative;
+}
+
+.banner-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-content {
+  flex: 1;
+}
+
+.page-title {
+  font-size: 48px;
+  font-weight: 800;
+  color: var(--text-main);
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.breadcrumb {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: var(--text-main);
+  transition: color 0.3s ease;
+}
+
+.breadcrumb a:hover {
+  color: var(--orange-accent);
+}
+
+.breadcrumb span {
+  opacity: 0.8;
+}
+
+.banner-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.banner-img img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+/* ==========================================================================
+   Component: About Experience Section
+   Architecture: Clean, Scalable, and Dark-Mode Ready
+   ========================================================================== */
+
+/* --- 1. الهيكل الأساسي والخلفية (Base Layout) --- */
+.about-experience {
+  padding: 80px 0;
+  background-color: #ffffff; /* خلفية بيضاء صريحة في الوضع الفاتح */
+  transition: background-color 0.3s ease;
+}
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+  align-items: center;
+}
+
+/* --- 2. تأثير تداخل الصور (Image Overlapping) --- */
+.experience-images {
+  position: relative;
+  width: 100%;
+  height: 480px;
+}
+
+.img-box {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.back-img {
+  width: 60%;
+  height: 85%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.front-img {
+  width: 60%;
+  height: 85%;
+  position: absolute;
+  bottom: 0;
+  right: 4%;
+  z-index: 2;
+  border: 8px solid #ffffff; /* إطار أبيض يطابق الخلفية لعمل تأثير القطع الذكي */
+  transition:
+    border-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+/* --- 3. النصوص والخطوط في الوضع الفاتح (Typography) --- */
+.experience-since {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333333;
+  opacity: 0.7;
+  display: block;
+  margin-bottom: 8px;
+  transition: color 0.3s ease;
+}
+
+.experience-title {
+  font-size: 40px;
+  font-weight: 800;
+  color: #111111; /* لون داكن صريح في الوضع الفاتح */
+  line-height: 1.2;
+  margin-bottom: 25px;
+  transition: color 0.3s ease;
+}
+
+.orange-text {
+  color: var(--orange-accent, #ff6b00); /* الاحتفاظ باللون البرتقالي الجذاب */
+}
+
+.experience-quote {
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.6;
+  color: #444444;
+  margin-bottom: 20px;
+  transition: color 0.3s ease;
+}
+
+.experience-desc {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #666666;
+  margin-bottom: 30px;
+  transition: color 0.3s ease;
+}
+
+/* --- 4. منطقة التوقيع (Signature) --- */
+.chef-signature {
+  margin-top: 20px;
+}
+
+.sig-img {
+  width: 120px;
+  height: auto;
+  transition: filter 0.3s ease;
+}
+
+/* ==========================================================================
+   5. نظام الوضع الداكن الموحد (Dark Mode Overrides)
+   ========================================================================== */
+body.dark-mode .about-experience {
+  background-color: #1a2321; /* تغيير الخلفية للون الداكن المتناسق */
+}
+
+body.dark-mode .front-img {
+  border-color: #1a2321; /* حواف الصورة تندمج بسلاسة مع الخلفية الداكنة الجديدة */
+}
+
+body.dark-mode .experience-since {
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+body.dark-mode .experience-title {
+  color: #ffffff; /* تحول العنوان للأبيض الصريح */
+}
+
+body.dark-mode .experience-quote {
+  color: #e0e0e0; /* أبيض هادئ ومريح للعين */
+}
+
+body.dark-mode .experience-desc {
+  color: #b0b0b0; /* رمادي فاتح يحافظ على تراتبية القراءة الليلية */
+}
+
+body.dark-mode .sig-img {
+  filter: invert(1) brightness(2); /* قلب حبر التوقيع الأسود ليصبح أبيض ناصعاً */
+}
+
+const themeBtn = document.getElementById("theme-btn");
+const iconMoon = document.querySelector(".icon-moon");
+const iconSun = document.querySelector(".icon-sun");
+
+themeBtn.addEventListener("click", () => {
+  // إضافة أو إزالة كلاس dark-mode من الـ body
+  document.body.classList.toggle("dark-mode");
+
+  const isDarkMode = document.body.classList.contains("dark-mode");
+
+  if (isDarkMode) {
+    // إظهار الشمس وإخفاء القمر
+    iconMoon.style.setProperty("display", "none", "important");
+    iconSun.style.setProperty("display", "inline-block", "important");
+  } else {
+    // إظهار القمر وإخفاء الشمس
+    iconMoon.style.setProperty("display", "inline-block", "important");
+    iconSun.style.setProperty("display", "none", "important");
+  }
+});
+
+// تفعيل رسالة تأكيد الطلب
+document.querySelector(".btn-order").addEventListener("click", (e) => {
+  e.preventDefault();
+  alert("Order window initialized! 🥗");
+});
+
+// --- تفعيل زر الصعود لأعلى (Back to Top) ---
+const backToTopBtn = document.getElementById("back-to-top");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    backToTopBtn.classList.add("show");
+  } else {
+    backToTopBtn.classList.remove("show");
+  }
+});
+
+// عند الضغط على الزر يتم الصعود للأعلى بسلاسة
+backToTopBtn.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+});
+هي الكود لي اشتغلته اشتغلت اول صفحة وانا حاليا بكمل بصفحة About ادرس الكود و خلينا نكمل شغل مع بعض وتعامل وكأنك  خبير
